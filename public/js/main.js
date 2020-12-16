@@ -59,14 +59,18 @@ egal.addEventListener('click', function(){
         default:
             break;
     }
+    valueSauvegarde = "";
+    valueSauvegarde2 = "";
+    ope = "";
 })
 
 // C
 
 let buttonC = document.querySelector('.boutonC')
 
-buttonC.addEventListener("click", function(){
-    input.value = "";
-    console.log(input.value)
+buttonC.addEventListener('click', function(){
+    input.value = ""
+    valueSauvegarde = ""
+    valueSauvegarde2 = ""
+    ope = ""
 })
-
